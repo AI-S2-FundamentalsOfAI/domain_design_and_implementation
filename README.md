@@ -17,6 +17,9 @@ De bijgeleverde code kan nog niet op zichzelf draaien. Gedurende de uitwerking v
 - moeten er mogelijk bestanden worden toegevoegd;
 - moet mogelijk de CMakeLists.txt-file worden aangepast, om te veranderen welke bestanden voor welke configuratie worden gecompileerd;
 
+Dit doe je aan de hand van het volgende ontwerp ![](uml.png)
+
+
 zodat de code wel compleet functioneert conform de eisen op de Canvaspagina.
 
 De CMakeLists.txt bevat twee configuraties:
