@@ -1,5 +1,4 @@
 
-
 class Pallet : public IContainer {
 
     std::string item_name;
