@@ -1,26 +1,21 @@
-
-
 # PROG VII: Domain design and implementation
 
 Student:
 
 Studentnummer:
 
-Link naar deze repository: 
-
 Om te voorkomen dat te grote bestanden worden meegestuurd met een commit, staan de mappen .idea en cmake-build-debug in de .gitignore. Gelieve deze dus ook niet mee te proberen te pushen; dat is niet nodig.
 
 De bijgeleverde code kan nog niet op zichzelf draaien. Gedurende de uitwerking van deze opdracht:
 
 - moeten de lege bestanden worden ingevuld;
-- moeten bestanden zoals de testsuite, waar al wel functies in staan, worden aangevuld;
+- moeten bestanden zoals de testsuite, waar al wel functies in staan, worden aangevuld met extra tests voor bijvoorbeeld pick_items;
 - moeten er mogelijk bestanden worden toegevoegd;
 - moet mogelijk de CMakeLists.txt-file worden aangepast, om te veranderen welke bestanden voor welke configuratie worden gecompileerd;
 
-Dit doe je aan de hand van het volgende ontwerp ![](uml.png)
-
-
 zodat de code wel compleet functioneert conform de eisen op de Canvaspagina.
+
+Dit doe je aan de hand van het volgende ontwerp ![](uml.png)
 
 De CMakeLists.txt bevat twee configuraties:
 
