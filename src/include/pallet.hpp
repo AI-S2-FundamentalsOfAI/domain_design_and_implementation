@@ -9,9 +9,6 @@ public:
 
 
     /**
-     * Note for educational purpose on passing std::string: Accepts lvalues (variables) and rvalues (temporary values like "Banana"),
-     * **Lvalues**: Reference passed, then copied into the attribute because the attribute is not, and should not, be a reference
-     * **Rvalues**: reference to temporary memory passed, value stored in attribute
      * @param _item_count
      * @param _item_name
      * @param _item_capacity
