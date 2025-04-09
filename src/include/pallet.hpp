@@ -19,7 +19,6 @@ public:
      */
     Pallet(const std::string&  _item_name, int _item_capacity, int _item_count);
 
-
     friend bool operator<(const Pallet& lhs, const Pallet& rhs) {
         return lhs.item_count < rhs.item_count;
     }
